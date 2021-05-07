@@ -34,8 +34,3 @@ public class EmployeemanagerApplication {
 	}
 
 }
-
-int x = 0;
-if (x == 0){
-	System.out.println("true");
-}
