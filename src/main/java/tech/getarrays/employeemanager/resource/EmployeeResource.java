@@ -1,3 +1,4 @@
+//this is a rest service
 package tech.getarrays.employeemanager.resource;
 
 import org.springframework.http.HttpStatus;
@@ -11,15 +12,17 @@ import java.util.List;
 @RestController
 @RequestMapping("/employee")
 public class EmployeeResource {
+    //accessing service
     private final EmployeeService employeeService;
 
     public EmployeeResource(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
-
+    //returns all employees in app
     @GetMapping("/all")
     public ResponseEntity<List<Employee>> getAllEmployees () {
         List<Employee> employees = employeeService.findAllEmployees();
+        //will notify user of proper return
         return new ResponseEntity<>(employees, HttpStatus.OK);
     }
 
