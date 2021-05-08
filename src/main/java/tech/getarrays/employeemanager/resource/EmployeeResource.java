@@ -31,10 +31,11 @@ public class EmployeeResource {
         Employee employee = employeeService.findEmployeeById(id);
         return new ResponseEntity<>(employee, HttpStatus.OK);
     }
-
+    //postman is expecting a post request and here when attmepting to add an employee
     @PostMapping("/add")
     public ResponseEntity<Employee> addEmployee(@RequestBody Employee employee) {
         Employee newEmployee = employeeService.addEmployee(employee);
+        //not httpStatus no OK, but created because newly employee id created
         return new ResponseEntity<>(newEmployee, HttpStatus.CREATED);
     }
 
