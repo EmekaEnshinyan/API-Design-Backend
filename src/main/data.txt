@@ -6,6 +6,7 @@
     "phone": "555-1123",
     "imageUrl": "https://warframemag.com/wp-content/uploads/2019/08/highcompress-Nidus.png"
 }
+
 {
     "name": "Andie T",
     "email": "andie@company.com",
@@ -14,6 +15,7 @@
     "imageUrl": "https://i.redd.it/e1kfay0bzon21.jpg"
     
 }
+
 {
     "name": "Mitch",
     "email": "mitch@company.com",
