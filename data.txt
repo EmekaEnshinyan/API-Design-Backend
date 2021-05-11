@@ -1,11 +1,12 @@
 
-{
+{ 
     "name": "Emeka A",
     "email": "emeka@company.com",
     "jobtitle": "software engineer",
     "phone": "555-1123",
     "imageUrl": "https://warframemag.com/wp-content/uploads/2019/08/highcompress-Nidus.png"
 }
+
 {
     "name": "Andie T",
     "email": "andie@company.com",
@@ -14,6 +15,7 @@
     "imageUrl": "https://i.redd.it/e1kfay0bzon21.jpg"
     
 }
+
 {
     "name": "Mitch",
     "email": "mitch@company.com",
@@ -21,5 +23,3 @@
     "phone": "555-2134",
     "imageUrl": "https://n9e5v4d8.ssl.hwcdn.net/uploads/98df2f886efd1e479c87649a65cbdfe1.jpg"
 }
-
-angular client created
