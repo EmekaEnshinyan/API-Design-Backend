@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 @SpringBootApplication
 public class EmployeemanagerApplication {
-
+//begin the backend server and application
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeemanagerApplication.class, args);
 	}
