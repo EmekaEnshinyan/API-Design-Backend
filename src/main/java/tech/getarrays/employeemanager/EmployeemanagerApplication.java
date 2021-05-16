@@ -18,6 +18,7 @@ public class EmployeemanagerApplication {
 //add database 2
 //adding 2
 //change 3
+	//this is a commonly use CORS configuration
 	@Bean
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
